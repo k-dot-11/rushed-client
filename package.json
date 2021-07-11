@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.16",
+    "@headlessui/react": "^1.2.0",
+    "apollo-link-context": "^1.0.20",
+    "formik": "^2.2.6",
+    "framer-motion": "^4.1.17",
+    "graphql": "^15.5.0",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.14",
+    "tailwindcss": "^2.1.2"
+  }
+}
